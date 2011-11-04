@@ -47,6 +47,7 @@ to represent the diagram structure.
 %doc %{_texmfdistdir}/doc/latex/syntax/syntaxintro.tex
 %doc %{_texmfdistdir}/doc/latex/syntax/syntaxtest.pdf
 %doc %{_texmfdistdir}/doc/latex/syntax/syntaxtest.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,3 +58,5 @@ to represent the diagram structure.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
