@@ -48,3 +48,17 @@ to represent the diagram structure.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20091001-2
++ Revision: 756421
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20091001-1
++ Revision: 719627
+- texlive-syntax
+- texlive-syntax
+- texlive-syntax
+- texlive-syntax
+
