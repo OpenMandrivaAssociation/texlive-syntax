@@ -5,8 +5,8 @@
 # catalog-license gpl
 # catalog-version undef
 Name:		texlive-syntax
-Version:	20091001
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	Creation of syntax diagrams
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/syntax
