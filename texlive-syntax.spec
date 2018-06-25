@@ -5,7 +5,7 @@
 # catalog-license gpl
 # catalog-version undef
 Name:		texlive-syntax
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Creation of syntax diagrams
 Group:		Publishing
