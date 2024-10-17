@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Creation of syntax diagrams
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/syntax
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/syntax
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/syntax.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/syntax.doc.r%{version}.tar.xz
